@@ -1,0 +1,56 @@
+header{
+    position: relative;
+    top: 80px;
+    color: #fff;
+    display: flex;
+    font-size: 24px;
+    gap: 55px;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 5;
+}
+header ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 55px;
+}
+header img{
+    Width:330.01px;
+    Height:82px;
+    position: relative;
+    top: 40px;
+    left: 70px;
+}
+.ContactNowBtn button{
+    clip-path: polygon(15% 0, 100% 0, 100% 60%, 85% 100%, 0 100%, 0 50%);
+    border-image: linear-gradient(to right, #cccccc, #805dfe) 1;
+    background: linear-gradient(to bottom, #A172FF, #7A37FF);    transition: 0.5s all ease;
+    display: inline-block;
+    padding: 27px 80px;
+    position: relative;
+    cursor: pointer;
+    color: #fff;
+}
+.ContactNowBtn button p{
+    font-size: 20px;
+}
+.ContactNowBtn button:hover {
+    border-image: linear-gradient(to right,#805dfe, #cccccc) 1;
+    transition: all 0.4s;
+  }
+  .Navigation ul li{
+    border-bottom:  3px solid rgba(255, 255, 255, 0);
+    transition: all 0.5s;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.Navigation ul li:hover{
+    border-image: linear-gradient(to left, #cccccc, #805dfe) 1 ;
+    background-image: url(/src/Assests/Ellipse\ 26.png);
+    background-position: center;
+    border-bottom: 3px solid;
+    background-size: cover;
+}
+
+  

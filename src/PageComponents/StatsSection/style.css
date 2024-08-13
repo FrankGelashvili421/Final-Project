@@ -1,0 +1,37 @@
+.StatsSection{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    line-height: 70px;
+    display: flex;
+    top: -16vw;
+}
+.StatsSection h1{
+    line-height: 55px;
+    font-weight: 400;
+    font-size: 70px;
+}
+.StatsSection p{
+    line-height: 78px;
+    font-weight: 300;
+    font-size: 30px;
+}
+.cont{
+    border-image: linear-gradient(to top,#ffff, #eaee6c, #ce2727) 1;
+    padding: 38px 0;
+}
+.Stats1{
+    padding-right: 79px;
+}
+.Stats2{
+    border-right: 2px solid;
+    border-left: 2px solid;
+    padding: 0 79px;
+}
+.Stats3{
+    border-right: 2px solid;
+    padding: 0 79px;
+}
+.Stats4{
+    padding-left: 79px;
+}

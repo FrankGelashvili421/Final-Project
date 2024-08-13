@@ -1,0 +1,50 @@
+.DiscoverSection{
+    height: 34vw;
+}
+.BackgroundIMG{
+    clip-path: polygon(6% 0, 100% 0%, 100% 60%, 85% 100%, 0 100%, 0 28%);
+    backdrop-filter: blur(8px);
+    position: relative;
+    bottom: 10vw;
+    left: 10vw;
+    z-index: 3;
+}
+.imageContainer{
+    position: relative;
+    width: 100%;
+    top: -30vw;
+}
+.Wvetiani{
+    position: relative;
+    right: 13%;
+    top: -15vw;
+}
+.X{
+    position: relative;
+    bottom: 7vw;
+    left: 85%;
+}
+.laptop{
+    position: relative;
+    right: 19%;
+    z-index: 4;
+    top: 5vw;
+}
+.ParagraphContainer{
+    z-index: 5;
+    position: relative;
+    bottom: 50vw;
+    width: 30%;
+    left: 51%;
+}
+.ParagraphContainer h1{
+    position: relative;
+    bottom:5vw;
+    font-size: 60px;
+}
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+}

@@ -1,0 +1,78 @@
+.BackgroundBlur{
+    justify-content: center;
+    display: flex;
+    z-index: 2;
+}
+.ImageContainer{
+    position: absolute;
+}
+.artwork{
+    position: relative;
+    bottom: 33vw;
+    z-index: 4;
+    left: 55vw;
+}
+.asset-94{
+    position: relative;
+    bottom: 48vw;
+    z-index: 3;
+    left: 13%;
+}
+.VectorObject{
+   position: relative;
+   bottom: 50vw;
+    left: 95.6%;
+    z-index: 1;
+}
+.Ball{
+    position: absolute;
+    right: -13vw;
+    z-index: 3;
+    top: -80%;
+}
+.TextContainer{
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    color: #fff;
+    display: flex;
+    bottom: 32vw;
+    height: 27vw;
+    width: 34vw;
+    left: 10vw;
+    z-index: 5;
+}
+.TextContainer h6{
+    padding-bottom: 40px;
+    line-height: 80px;
+    font-weight: 400;
+    font-size: 80px;
+}
+.TextContainer p{
+    font-size: 20px;
+}
+.BtnContainer button{
+    transition: all 0.4s;
+    padding: 20px 80px;
+    font-size: 20px;  
+    cursor: pointer;
+    color: #fff;
+}
+.ContactUsBtn{
+    clip-path: polygon(15% 0, 100% 0, 100% 60%, 85% 100%, 0 100%, 0 50%);
+    border-image: linear-gradient(to right, #cccccc, #805dfe) 1;
+    background: linear-gradient(to bottom, #A172FF, #7A37FF);    margin-right: 15px;
+}
+.ContactUsBtn:hover{
+    border-image: linear-gradient(to right,#805dfe, #cccccc) 1;
+}
+.LearnMoreBtn{
+    clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 100% 100%, 10% 100%, 0% 60%);
+    border-image: linear-gradient(to right, #805dfe, #cccc) 1;
+    background-color: rgba(255, 255, 255, 0);
+    margin-left: 15px;
+}
+.LearnMoreBtn:hover{
+    clip-path: polygon(15% 0, 100% 0, 100% 60%, 85% 100%, 0 100%, 0 50%);
+    border-image: linear-gradient(to right,#cccccc25, #805dfe) 1;
+}

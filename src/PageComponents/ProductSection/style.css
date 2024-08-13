@@ -1,0 +1,61 @@
+.productSection{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+.productSection button p{
+    font-size: 20px;
+    background: #645ECF;
+    background: linear-gradient(to right, #7c77da 20%, #FFFFFF 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.productSection button{
+    background-color: rgba(255, 255, 255, 0);
+    border-color: #9c5ecf;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    padding: 15px 22px;
+    cursor: pointer;
+}
+.BtnContainer{
+    padding-bottom: 60px;
+    display: flex;
+    gap: 30px;
+}
+.BtnContainer div{
+    cursor: pointer;
+    display: flex; 
+}
+.productSection h1{
+    background: linear-gradient(to right, #7c77da 20%, #FFFFFF 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding-bottom: 50px;
+    font-weight: 400;
+    font-size: 60px;
+}
+.BtnBox{
+    clip-path: polygon(13% 0, 100% 0, 100% 60%, 85% 100%, 0 100%, 0 30%);
+    background-color: rgba(68, 67, 67, 0.675);
+}
+.ChangedBorder{
+    clip-path: polygon(0% 0%, 90% 0%, 100% 30%, 100% 100%, 10% 100%, 0% 60%);
+}
+.LogoSection{
+    background: linear-gradient(to bottom, #A172FF, #7A37FF);    padding: 30px;
+}
+.ParagraphSection{
+   padding: 0px  120px 0px 30px;
+}
+.BtnContainer h1{
+    padding-bottom: 0;
+    font-size: 33px;
+}
+.ParagraphSection{
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    display: flex;
+}
