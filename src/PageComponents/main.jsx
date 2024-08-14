@@ -1,9 +1,11 @@
-import {HeaderComponent} from './HeaderComponent'
-import {HomeSection} from './HomeSection'
-import {StatsSection} from './StatsSection'
+import {ClientCommentSection} from './ClientCommentSection'
+import { CredentialsSection } from './CredentialsSection'
 import {DiscoverSection} from './DiscoverSection'
-import { ProductSection } from './ProductSection'
-import { ServicesSection } from './ServicesSection'
+import {ServicesSection} from './ServicesSection'
+import {HeaderComponent} from './HeaderComponent'
+import {ProductSection} from './ProductSection'
+import {StatsSection} from './StatsSection'
+import {HomeSection} from './HomeSection'
 
 export const FinalProject = () =>{
     return(
@@ -14,6 +16,8 @@ export const FinalProject = () =>{
             <DiscoverSection/>
             <ProductSection/>
             <ServicesSection/>
+            <ClientCommentSection/>
+            <CredentialsSection/>
         </>
     )
 }

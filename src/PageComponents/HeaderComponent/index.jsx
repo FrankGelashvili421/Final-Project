@@ -1,5 +1,5 @@
-import './style.css'
 import logo from '../../Assests/Vector.png'
+import './style.css'
 
 export const HeaderComponent = () =>{
     return (

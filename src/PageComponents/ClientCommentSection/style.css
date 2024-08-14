@@ -1,0 +1,78 @@
+.Clients{
+    padding-top: 60px;
+}
+.ClientsHead{
+    padding-left: 15%;
+    margin-bottom: 100px;
+}
+.ClientsHead  button p{
+    font-size: 20px;
+    background: #645ECF;
+    background: linear-gradient(to right, #7c77da 20%, #FFFFFF 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.ClientsHead button{
+    background-color: rgba(255, 255, 255, 0);
+    border-color: #9c5ecf;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    padding: 15px 22px;
+    cursor: pointer;
+}
+.ClientsHead > h1{
+    background: linear-gradient(to right, #fff 1%, #a6a2fc 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding-bottom: 25px;
+    font-size: 60px;
+}
+.ClientsMain{
+    flex-direction: column;
+    position: relative;
+    max-width: 1090px;
+    display: flex;
+    float: right;
+    width: 100%;
+    gap: 60px;
+}
+.ClientsBox{
+    clip-path: polygon(6% 0, 100% 0, 100% 70%, 94% 100%, 0 100%, 0 28%);
+    background-color: #ffffff1b;
+    position: relative;
+    display: flex;
+    padding: 40px;
+    right: 20%;
+    gap: 6%;
+
+}
+.ClientsBox h1{
+    background: linear-gradient(to right, #fff 1%, #a6a2fc 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.ClientInfo p{
+    color: #FFFFFF;
+    opacity: 70%;
+}
+.ClientInfo{
+    display: flex;
+}
+.ClientInfo >img{
+    height: 140px;
+    padding: 30px;
+    width: 140px;
+}
+.ClientBox{
+    justify-content: space-around;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+}
+.Links img{
+    cursor: pointer;
+    margin: 10px;
+}
+.ClientComment{
+    width: 50%;
+}

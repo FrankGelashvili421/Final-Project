@@ -1,21 +1,17 @@
 import assestWvetianixd from '../../Assests/Asset 7@4x 1.png'
+import artworkLaptop from '../../Assests/Arwork 2 1.png'
 import assestX from  '../../Assests/Asset 21@4x 1.png'
 import Background from '../../Assests/Mask group.png'
-import artworkLaptop from '../../Assests/Arwork 2 1.png'
-
 import './style.css'
 
-const handleDragStart= (event)=>{
-    event.preventDefault();
-}
 export const DiscoverSection = ()=>{
     return(
         <section className='DiscoverSection'>
-            <img className='BackgroundIMG no-drag' src={Background} alt="backgroundImg" onDragStart={handleDragStart}/>
+            <img className='BackgroundIMG' src={Background} alt="backgroundImg"/>
             <div className='imageContainer'>
-                <img className='X no-drag' src={assestX} alt="X" onDragStart={handleDragStart}/>
-                <img className='Wvetiani no-drag' src={assestWvetianixd} alt="wvetianiragaca" onDragStart={handleDragStart}/>
-                <img className='laptop no-drag' src={artworkLaptop} alt="LaptopIMG" onDragStart={handleDragStart} />
+                <img className='X' src={assestX} alt="X"/>
+                <img className='Wvetiani' src={assestWvetianixd} alt="wvetianiragaca"/>
+                <img className='laptop' src={artworkLaptop} alt="LaptopIMG" />
             </div>
             <div className='ParagraphContainer'>
                 <h1>Discover Cryptocurrency</h1>
