@@ -1,0 +1,75 @@
+.CredentialsBox{
+    padding-bottom: 100px;
+    display: flex;
+    gap: 16%;
+}
+.CredentialsImageSide{
+    background-image: url(../../Assests/Frame\ 697.png);
+    position: relative;
+    height: 563px;
+    width: 753px;
+    left: 10%;
+}
+.CredentialsImageSideParagraph{
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    display: flex;
+    right: 5%;
+    top: 4%;
+}
+.RightSideParagraph{
+    position: relative;
+    opacity: 50%;
+    bottom: 5px;
+    right: 9%;
+}
+.ImageBox{
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    display: grid;
+    margin:40px ;
+    gap: 80px;
+    top: 16%;
+    left: 6%;
+}
+.ImageBox img{
+    cursor: pointer;
+}
+.CredentialsImageSideShape{
+    position: relative;
+    right: 20%;
+    bottom: 4%;
+    z-index: -1;
+}
+.CredentialsTitleSide{
+    width: 30%;
+}
+.CredentialsTitleSide button> p{
+    font-size: 20px;
+    background: #645ECF;
+    background: linear-gradient(to right, #7c77da 20%, #FFFFFF 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.CredentialsTitleSide button{
+    background-color: rgba(255, 255, 255, 0);
+    border-color: #9c5ecf;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    padding: 15px 22px;
+    cursor: pointer;
+}
+.CredentialsTitleSide h1{
+    background: linear-gradient(to right, #fff 1%, #a6a2fc 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding-bottom: 30px;
+    font-size: 60px;
+}
+.CredentialsTitleSideShape{
+    position: relative;
+    width: min-content;
+    top: 10%;
+    left: 50%;
+}

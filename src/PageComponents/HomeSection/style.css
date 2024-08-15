@@ -61,7 +61,8 @@
 .ContactUsBtn{
     clip-path: polygon(15% 0, 100% 0, 100% 60%, 85% 100%, 0 100%, 0 50%);
     border-image: linear-gradient(to right, #cccccc, #805dfe) 1;
-    background: linear-gradient(to bottom, #A172FF, #7A37FF);    margin-right: 15px;
+    background: linear-gradient(to bottom, #A172FF, #7A37FF);    
+    margin-right: 15px;
 }
 .ContactUsBtn:hover{
     border-image: linear-gradient(to right,#805dfe, #cccccc) 1;

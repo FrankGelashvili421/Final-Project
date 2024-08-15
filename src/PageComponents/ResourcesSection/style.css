@@ -1,0 +1,63 @@
+.ResourcesHeader{
+    padding-left: 150px;
+}
+.ResourcesHeader button p{
+    font-size: 20px;
+    background: #645ECF;
+    background: linear-gradient(to right, #7c77da 20%, #FFFFFF 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.ResourcesHeader button{
+    background-color: rgba(255, 255, 255, 0);
+    border-color: #9c5ecf;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    padding: 15px 22px;
+    cursor: pointer;
+}
+.ResourcesHeader h1{
+    margin-bottom: 150px;
+    font-size: 60px;
+}
+.ResourcesMiddle{
+    padding: 0 200px;
+    display: flex;
+}
+.ResourcesMiddleTextSide{
+    clip-path: polygon(6% 0, 100% 0, 100% 90%, 95% 100%, 0 100%, 0 10%);
+    border: 1px solid;
+    border-image: linear-gradient(to left, #cccccc, #000000, #ffffff) 1;
+    background-color: #2e2e2e61;
+    backdrop-filter: blur(10px);
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    max-height: 507px;
+    display: flex;
+    padding: 80px;
+    height: 100%;
+    width: 846px;
+    z-index: 3;
+    gap: 30px;
+}
+.ResourcesMiddleImageSide{
+    position: relative;
+    bottom: 20px;
+    z-index: 2;
+    left: 34%;
+}
+.ResourcesMiddleTextSide h1{
+    background: linear-gradient(to left, #b6b3fb 20%, #FFFFFF 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 40px;
+}
+.ParagraphTitle{
+    width: 82%;
+}
+.ResourcesMiddleTextSide > .DateParagraph{
+    position: relative;
+    top: 13%;
+    opacity: 50%;
+} 
