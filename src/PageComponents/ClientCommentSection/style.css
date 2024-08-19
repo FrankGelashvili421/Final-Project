@@ -77,3 +77,34 @@
 .ClientComment{
     width: 50%;
 }
+@media screen and (max-width: 1300px) {
+    .ClientsMain{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .ClientsBox{
+        clip-path: polygon(5% 0, 100% 0, 100% 85%, 94% 100%, 0 100%, 0 18%);
+        padding: 30px;
+    }
+    .ClientInfo{
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+    }
+}
+@media screen and (max-width:700px) {
+    .Clients{
+        margin-bottom: 800px;
+    }
+    .ClientsBox{
+        clip-path: polygon(10% 0, 100% 0, 100% 90%, 94% 100%, 0 100%, 0 10%);
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 500px) {
+    
+}

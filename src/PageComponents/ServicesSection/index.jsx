@@ -22,7 +22,7 @@ export const ServicesSection =() =>{
         };
         
         fetchData();
-    }, []);
+    }, [dispatch]);
 
     return (
         <section className='ServicesSection'>
