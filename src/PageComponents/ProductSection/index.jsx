@@ -5,7 +5,7 @@ import './style.css'
 
 export const ProductSection = () =>{
     return(
-        <section className='productSection'>
+        <section className='productsSection'>
             <button><p>Our Product</p></button>
             <h1>Our Range of Crypto Product</h1>
             <div className='BtnContainer'>

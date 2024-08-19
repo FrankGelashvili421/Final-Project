@@ -13,10 +13,14 @@
     -webkit-user-drag: none; 
   }
   h1{
-    font: ABeeZee;
-    font-weight: 400;
+    font: Clash Display Variable;
+    font-family: italic;
+    font-weight: 100;
   }
   p{
+    font-family: light;
+    font-weight: 100;
     font-size: 20px;
     font: Archivo;
   }
+ 

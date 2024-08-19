@@ -1,17 +1,17 @@
-.productSection{
+.productsSection{
     justify-content: center;
     flex-direction: column;
     align-items: center;
     display: flex;
 }
-.productSection button p{
+.productsSection button p{
     font-size: 20px;
     background: #645ECF;
     background: linear-gradient(to right, #7c77da 20%, #FFFFFF 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
-.productSection button{
+.productsSection button{
     background-color: rgba(255, 255, 255, 0);
     border-color: #9c5ecf;
     border-radius: 30px;
@@ -28,7 +28,7 @@
     cursor: pointer;
     display: flex; 
 }
-.productSection h1{
+.productsSection h1{
     background: linear-gradient(to right, #7c77da 20%, #FFFFFF 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -58,4 +58,75 @@
     align-items:flex-start;
     flex-direction: column;
     display: flex;
+}
+@media screen and (max-width: 1300px) {
+    .productsSection button{
+        margin-top: 100px;
+    }
+    .BtnContainer{
+        gap: 10px;
+    }
+    .ParagraphSection{
+       padding: 0px  80px 0px 20px;
+    }
+    .ParagraphSection p{
+        font-size: 16px;
+    }
+    .BtnContainer h1{
+        font-size: 30px;
+    }
+    .LogoSection img{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .productsSection h1{
+        font-size: 50px;
+    }
+    .ParagraphSection{
+       padding: 0px  60px 0px 20px;
+    }
+    .BtnContainer h1{
+        font-size: 30px;
+    }
+    .LogoSection{
+        justify-content: center;
+        padding: 10px 5px;
+    }
+    .LogoSection img{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .BtnContainer{
+        flex-direction: column;
+        gap: 20px;
+        display: flex;
+    }
+    .productsSection h1{
+        font-size: 50px;
+    }
+    .ParagraphSection{
+       padding: 0px  50px 0px 20px;
+    }
+    .BtnContainer h1{
+        font-size: 25px;
+    }
+    .ParagraphSection p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 610px) {
+    .productsSection h1{
+        font-size: 30px;
+    }
+    .ParagraphSection{
+       padding: 0px  30px 0px 10px;
+    }
+    .BtnContainer h1{
+        font-size: 25px;
+    }
+    .ParagraphSection p{
+        font-size: 14px;
+    }   
 }

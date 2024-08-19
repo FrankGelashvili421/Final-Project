@@ -35,3 +35,70 @@
 .Stats4{
     padding-left: 79px;
 }
+@media screen and (max-width: 1450px) {
+    .StatsSection h1{
+        line-height: 50px;
+        font-size: 60px;
+    }
+    .StatsSection p{
+        font-size: 20px;
+    }
+    .Stats1{
+        padding-right: 50px;
+    }
+    .Stats2{
+        padding: 0 50px;
+    }
+    .Stats3{
+        padding: 0 50px;
+    }
+    .Stats4{
+        padding-left: 50px;
+    }   
+}
+@media screen and (max-width:1200px) {
+    .StatsSection h1{
+        font-size: 50px;
+    }
+    .StatsSection p{
+        font-size: 18px;
+    }
+    .Stats1{
+        padding-right: 30px;
+    }
+    .Stats2{
+        padding: 0 30px;
+    }
+    .Stats3{
+        padding: 0 30px;
+    }
+    .Stats4{
+        padding-left: 30px;
+    }  
+}
+@media screen and (max-width: 950px) {
+    .StatsSection{
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+        display: grid;
+        width: 50%;
+    }
+    .Stats1{
+        border-bottom: solid;
+        padding: 30px;
+    }
+    .Stats2{
+        border-bottom: solid;
+        border-right: none;
+    }
+    .Stats3{
+        padding:38px 30px;
+    }
+    .StatsSection h1{
+        font-size: 40px;
+    }
+    .StatsSection p{
+        line-height: 60px;
+        font-size: 16px;
+    }
+}

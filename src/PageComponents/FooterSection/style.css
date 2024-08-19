@@ -1,0 +1,56 @@
+footer{
+    justify-content: space-between;
+    background: linear-gradient(135deg, #1a1c323a, #231e327d, #3c2c5f3b);
+    backdrop-filter: blur(6px);
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(135deg,  #1A1C32, #ffffff, #3C2C5F);
+    border-radius: 12px;
+    margin: 60px 100px;
+    padding: 64px 95px;
+    border-width: 2px;
+    display: flex;
+    height: 508px;
+}
+.FooterTitle{
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    width: 34%;
+}
+.logoimage{
+    width: 50%;
+}
+.socialimage{
+    cursor: pointer;
+    width: 30%;
+}
+.FooterMain{
+    justify-content: space-between;
+    display: flex;
+    gap: 100px;
+}
+.FooterMain ul li{
+    margin-bottom: 20px;
+    list-style: none;
+}
+.FooterMain h1{
+    background: linear-gradient(to left, #9b97ed 1%, #FFFFFF 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 28px;
+}
+.FooterMain p{
+    cursor: pointer;
+    font-size: 16px;
+    opacity: 70%;
+}
+.ContactInfo{
+    width: 60%;
+}
+footer >p{
+    position: absolute;
+    font-size: 16px;
+    bottom:  10%;
+    right: 5%;
+}

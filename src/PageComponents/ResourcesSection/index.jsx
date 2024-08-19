@@ -27,7 +27,7 @@ export const ResourcesSection =()=>{
                     <img src={unspash1} alt="imageError"/>
                     <div className='ResourcesParagraph'>
                         <p>Sercurity | 10min read</p>
-                        <p>Lorem ipsum dolor sit amet consectetur. Erat donec eleifend vulputate mattis nunc justo morbi imperdiet. Et nisl ac eu tempus hendrerit. Non donec ut aenean placerat pulvinar quis.</p>
+                        <p className='MainText'>Lorem ipsum dolor sit amet consectetur. Pretium amet facilisis.</p>
                         <p className='DateParagraph'>August 4. 2023</p>
                     </div>
                 </div>
@@ -35,7 +35,7 @@ export const ResourcesSection =()=>{
                     <img src={unsplash2} alt="imageError"/>
                     <div className='ResourcesParagraph'>
                         <p>Sercurity | 10min read</p>
-                        <p>Lorem ipsum dolor sit amet consectetur. Erat donec eleifend vulputate mattis nunc justo morbi imperdiet. Et nisl ac eu tempus hendrerit. Non donec ut aenean placerat pulvinar quis.</p>
+                        <p className='MainText'>Lorem ipsum dolor sit amet consectetur. Pretium amet facilisis.</p>
                         <p className='DateParagraph'>August 4. 2023</p>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ export const ResourcesSection =()=>{
                     <img src={unsplash3} alt="imageError"/>
                     <div className='ResourcesParagraph'>
                         <p>Sercurity | 10min read</p>
-                        <p>Lorem ipsum dolor sit amet consectetur. Erat donec eleifend vulputate mattis nunc justo morbi imperdiet. Et nisl ac eu tempus hendrerit. Non donec ut aenean placerat pulvinar quis.</p>
+                        <p className='MainText'>Lorem ipsum dolor sit amet consectetur. Pretium amet facilisis.</p>
                         <p className='DateParagraph'>August 4. 2023</p>
                     </div>
                 </div>

@@ -1,10 +1,9 @@
-import { combineReducers } from '@reduxjs/toolkit';
-import booksReducer from './slices/booksSlice';
-import usersReducer from './slices/usersSlice';
+import {combineReducers} from '@reduxjs/toolkit';
+import postsSlice from './slices/postsSlice';
+
 
 const rootReducer = combineReducers({
-  books: booksReducer,
-  users: usersReducer
+  posts: postsSlice
 });
 
 export default rootReducer;

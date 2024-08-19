@@ -48,3 +48,136 @@
     gap: 20px;
     font-size: 20px;
 }
+@media screen and (max-width: 1910px) {
+    .Wvetiani{
+        display: none;
+    }
+    .X{
+        display: none;
+    }
+    .BackgroundIMG{
+        bottom: 10vw;
+        left: 3vw;
+        padding: 0px 20px;
+    }
+    
+    .laptop{
+        left: 4%;
+        top: 4vw;
+    }
+    .ParagraphContainer{
+        bottom: 46vw;
+        width: 30%;
+        left: 51%;
+    }
+    .ParagraphContainer h1{
+        bottom:8vw;
+        font-size: 60px;
+    }
+    .paragraph{
+        gap: 20px;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1800px) {
+    .BackgroundIMG{
+        display: none;
+    }
+    .imageContainer{
+        margin-top: 400px;
+    }
+    .laptop{
+        left: 4%;
+        top: 5vw;
+    }
+    .ParagraphContainer{
+        position: relative;
+        float: top;
+        width: 30%;
+    }
+    .ParagraphContainer h1{
+        bottom:8vw;
+        font-size: 60px;
+    }
+    .paragraph{
+        gap: 20px;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .laptop{
+        left: 2%;
+        top: 10vw;
+    }
+    .ParagraphContainer{
+        position: relative;
+        left: 60vw;
+        width: 30%;
+    }
+    .ParagraphContainer h1{
+        bottom:8vw;
+        font-size: 55px;
+    }
+    .paragraph{
+        gap: 10px;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1100px) {
+
+    .imageContainer{
+        width: 40%;
+    }
+    .laptop{
+        width: 90%;
+    }
+    .ParagraphContainer{
+        bottom: 50vw;
+        width: 50%;
+        left: 40%;
+    }
+    .ParagraphContainer h1{
+        font-size: 50px;
+        bottom:1vw;
+    }
+    .paragraph{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .ParagraphContainer h1{
+        font-size: 40px;
+    }
+    .paragraph p{
+        gap: 10px;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .ParagraphContainer h1{
+        font-size: 30px;
+    }
+    .paragraph p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .ParagraphContainer h1{
+        font-size: 20px;
+    }
+    .paragraph{
+        gap: 5px;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .ParagraphContainer h1{
+        font-size: 15px;    
+    }
+    .paragraph p{
+        font-size: 6px;
+    }
+}

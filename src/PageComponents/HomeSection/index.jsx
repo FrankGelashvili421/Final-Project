@@ -18,7 +18,7 @@ export const HomeSection = () =>{
             <div className='TextContainer'>
                 <h6>Unlocking the Future of Finance</h6>
                 <p>In a digital age driven by innovation, cryptocurrency has emerged as a revolutionary force that is reshaping the way we perceive and interact with money. At [Your Crypto Platform], we are your gateway to this exciting world of decentralized finance, empowering you to explore, invest, and transact with confidence.</p>
-                <div className='BtnContainer'>
+                <div className='BtnContainers'>
                     <button className='ContactUsBtn'>Contact Us</button>
                     <button className='LearnMoreBtn'>Learn More</button>
                 </div>

@@ -4,8 +4,8 @@ body {
   background-image: url(../src/Assests/mainBg.jpg);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-repeat: no-repeat;
   background-color: #141420;
+  background-size: contain;
   background-repeat: repeat;
   background-position: top;
   max-width: 2000px;

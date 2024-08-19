@@ -1,0 +1,87 @@
+.FormSection{
+    background-image: url(../../Assests/formBackground.png);
+    max-width: 1459.5px;
+    margin: 0 auto;
+    height: 964.5px;
+    display: flex;
+    width: 100%;
+}
+.FormTitle{
+    padding: 70px 90px;
+}
+.FormTitle img{
+    position: relative;
+    z-index: -1;
+    left: 10px;
+    top: 90px;
+}
+.FormTitle h1{
+    background: linear-gradient(to left, #7c77da 2%, #FFFFFF 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding-bottom: 40px;
+    font-weight: 500;
+    font-size: 60px;
+}
+.FormTitle p{
+    width: 82%;
+}
+.FormSection form{
+    justify-content: space-evenly;
+    flex-direction: column;
+    display: flex;
+    padding: 50px;
+}
+.inputflex{
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+}
+.inputflex label{
+    font-size: 20px;
+}
+.PolygonChange{
+    clip-path: polygon(5% 0, 100% 0, 100% 60%, 95% 100%, 0 100%, 0 50%);
+    max-width: 557px;
+    height: 52px;
+}
+.InputContainer{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+.InputContainer input{
+    width:268.5px;
+    height: 52px;
+}
+.polygonChangeLeft{
+    clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 50%);
+}
+.poligonChangeRight{
+    clip-path: polygon(0% 0, 100% 0, 100% 55%, 90% 100%, 0 100%, 0 50%);
+}
+.BigInput{
+    clip-path: polygon(6% 0, 100% 0, 100% 80%, 95% 100%, 0 100%, 0 20%);
+    height: 196px;
+}
+.CheckboxSide input{
+    cursor: pointer;
+    margin: 10px;
+}
+.CheckboxSide label{
+    font-size: 14px;
+}
+.CheckboxSide p{
+    color: #B95DFE;
+    font-size: 13px;
+}
+.FormSection button{
+    clip-path: polygon(15% 0, 100% 0, 100% 60%, 85% 100%, 0 100%, 0 50%);
+    border-image: linear-gradient(to right, #cccccc, #805dfe) 1;
+    background: linear-gradient(to right, #b08afd, #7A37FF);
+    width: fit-content;
+    padding: 20px 40px;    
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 20px;
+}
