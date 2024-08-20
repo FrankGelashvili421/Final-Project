@@ -73,3 +73,67 @@
     top: 10%;
     left: 50%;
 }
+@media screen and (max-width: 1600px) {
+    .CredentialsTitleSideShape{
+        left: 0;
+    }
+}
+@media screen and (max-width: 1410px) {
+    .CredentialsBox{
+        gap: 10%;
+    }
+    .CredentialsImageSide{
+        left: 2%;
+    }
+    .CredentialsTitleSide h1{
+        font-size: 45px;
+    }
+    .CredentialsTitleSideShape{
+        top: 0;
+        left: 0;
+    }
+}
+@media screen and (max-width: 1270px) {
+    .CredentialsBox{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+    }
+    .CredentialsImageSide{
+        margin-bottom: 100px;
+        left: 0;
+    }
+}
+@media screen and (max-width: 760px) {
+    .CredentialsImageSide{
+        display: none;
+    }
+    .CredentialsBox{
+        padding-top: 30px;
+        width: 100%;
+    }
+    .CredentialsTitleSide{
+        width: 90%;
+    }
+}
+@media screen and (max-width:400px) {
+    .CredentialsTitleSide{
+        width: 90%;
+    }
+    .CredentialsTitleSide p{
+        font-size: 16px;
+    }
+    .CredentialsTitleSide button> p{
+        font-size: 16px;
+    }
+    .CredentialsTitleSide button{
+        padding: 10px 18px;
+    }
+    .CredentialsTitleSide h1{
+        font-size: 30px;
+    }
+    .CredentialsTitleSideShape {
+       display: none;
+    }
+}

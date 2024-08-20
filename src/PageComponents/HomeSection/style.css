@@ -218,6 +218,10 @@
     }
 }
 @media screen and (max-width: 810px) {
+    .BtnContainers{
+        justify-content: center;
+        display: flex;
+    }
     .artwork{
         display: none;
     }

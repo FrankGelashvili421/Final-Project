@@ -191,8 +191,8 @@ header img{
     }
     .XButton{
         position: relative;
-        cursor: pointer;
         margin-bottom: 30px ;
+        cursor: pointer;
         float: right;
         z-index: 900;
         height: 50px;
@@ -203,32 +203,32 @@ header img{
     .XButton::Before{
         content: '';
         position: absolute;
-        top: 20px;
-        height: 4px;
-        border-radius: 20px;
         transition: width .3s, transform .3s, background-color .2s;
-        background: #ffff;
-        width: 50px;
-        right: 2px;
         transform: rotate(45deg);
+        background: #ffff;
+        border-radius: 20px;
         z-index: 899;
+        width: 50px;
+        height: 4px;
+        right: 2px;
+        top: 20px;
     }
     .XButton::after{
         content: '';
         position: absolute;
-        top: 20px;
-        height: 4px;
         transition: width .3s, transform .3s, background-color .2s;
+        transform: rotate(-45deg);
         background: #ffff;
+        z-index: 899;
+        height: 4px;
         width: 50px;
         right: 2px;
-        z-index: 899;
-        transform: rotate(-45deg);
+        top: 20px;
     }
     .ResponsiveMenu ul li{
         transition: all 0.5s;
-        font-size: 25px;
-        padding: 28px;
+        font-size: 24px;
+        padding: 24px;
 
     }
     .ResponsiveMenu ul li:hover{
@@ -240,7 +240,8 @@ header img{
         display: flex;
     }
     .ContactNowBtn button{
-        padding: 25px 70px;
+        padding: 20px 50px;
+        top: 0;
     }
     .ContactNowBtn button p{
         font-size: 25px;
@@ -265,4 +266,3 @@ header img{
         left: 0px;
     }
 }
-  

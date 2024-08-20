@@ -106,5 +106,27 @@
     }
 }
 @media screen and (max-width: 500px) {
+    .Clients{
+        margin-bottom: 1000px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .Clients{
+        margin-bottom: 280vw;
+    }
+}
+@media screen and (max-width: 400px) {
+    .Clients{
+        margin-bottom: 300vw;
+    }
+    .ClientsBox{
+        padding: 6px;
+        margin: 0px;
+    }
+}
+@media screen and (max-width: 300px) {
+    .Clients{
+        margin-bottom: 500vw;
+    }
     
 }

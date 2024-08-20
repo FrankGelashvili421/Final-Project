@@ -93,3 +93,102 @@
     padding-top: 60px;
     opacity: 50%;
 }
+@media screen and (max-width: 1560px) {
+    .ResourcesHeader h1{
+        margin-bottom: 100px;
+    }
+    .ResourcesMiddle{
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 1500px) {
+    .ResourcesMiddle{
+        justify-content: center;
+        margin-bottom: 30px;
+        display: flex;
+    }
+    .ResourcesMiddleTextSide{
+        max-height: 560px;
+        padding: 80px;
+        height: 100%;
+        width: 960px;
+        gap: 30px;
+    }
+    .ResourcesMiddleImageSide{
+        clip-path: polygon(12% 0, 100% 0, 100% 90%, 85% 100%, 0 100%, 0 10%);
+        bottom: 0;
+        left: 0;
+    }
+    .ResourcesMain{
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        display: grid;
+        width: 100%;
+        gap: 0px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .ResourcesMiddleTextSide{
+        background-image: url(../../Assests/cubebackg.png);
+        background-blend-mode: color;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        height: 560px;
+        padding: 60px;
+        width: 95%;
+        gap: 30px;
+    }
+    .ResourcesMiddleImageSide{
+        display: none;
+    }
+    .ResourcesMiddleTextSide h1{
+        font-size: 40px;
+    }
+    .ResourcesMain{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 600px) {
+    .ResourcesMiddleTextSide{
+        padding: 20px;
+    }
+    .ResourcesMiddleTextSide> h1{
+        font-weight:600;
+        font-size: 30px;
+    }
+    .ResourcesParagraph{
+        gap: 0px;
+    }
+    .MainText{
+        font-size: 30px;
+    }
+    .ResourcesParagraph> .DateParagraph{
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .ResourcesMiddleTextSide> h1{
+        font-size: 25px;
+    }
+    .ResourcesMiddleTextSide p{
+        font-size: 18px;
+    }
+    .ResourcesCards{
+        width:90%;
+    }
+    .ResourcesCards img{
+        width: 100%;
+    }
+    .ResourcesParagraph{
+        padding: 40px;
+        gap: 10px;
+    }
+    .MainText{
+        font-size: 25px;
+    }
+    .ResourcesParagraph> .DateParagraph{
+        padding-top: 20px;
+        opacity: 50%;
+    }
+}
