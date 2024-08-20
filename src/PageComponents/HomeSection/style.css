@@ -242,3 +242,23 @@
     }
 }
 
+@media screen and (max-width: 650px) {
+    .HomeSection{
+        height: 98vw;
+    }
+}
+@media screen and (max-width: 450px) {
+    .HomeSection{
+        height: 130vw;
+    }
+}
+@media screen and (max-width: 360px) {
+    .HomeSection{
+        height: 150vw;
+    }
+}
+@media screen and (max-width: 320px) {
+    .HomeSection{
+        height: 200vw;
+    }
+}

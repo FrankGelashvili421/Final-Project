@@ -7,7 +7,7 @@ import "./style.css"
 
 export const HomeSection = () =>{
     return(
-        <section>
+        <section className='HomeSection'>
             <div className="BackgroundBlur"><img className="BackgroundBlur " src={Background} alt="BackgroundBlur"/></div>
             <div className='ImageContainer'>
                 <img className='artwork ' src={artwork} alt="artwork" />

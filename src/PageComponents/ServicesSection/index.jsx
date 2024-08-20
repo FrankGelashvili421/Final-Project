@@ -1,7 +1,7 @@
 import {setUserPosts} from '../redux/slices/postsSlice';
 import triplecube from '../../Assests/triple cube.png'
 import {useDispatch, useSelector} from 'react-redux';
-import { Pagination } from '@mui/material';
+import {Pagination} from '@mui/material';
 import {useEffect} from 'react';
 import axios from 'axios';
 import './style.css'

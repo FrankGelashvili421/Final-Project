@@ -102,3 +102,20 @@
         font-size: 16px;
     }
 }
+@media screen and (max-width: 450px) {
+    .StatsSection{
+        grid-template-columns:  1fr;
+    }
+    .Stats1{
+        border-bottom: solid;
+    }
+    .Stats2{
+        border-left: none;
+        border-bottom: solid;
+        
+    }
+    .Stats3{
+        border-bottom: solid;
+        border-right: none;
+    }
+}
