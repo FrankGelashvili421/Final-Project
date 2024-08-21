@@ -108,13 +108,12 @@
     }
 }
 @media screen and (max-width: 1100px) {
-    .FormTitle{
-        padding: 70px 90px;
+    .FormSection{
+        margin-bottom: 25vw;
+        width: 54%;
     }
-    .FormTitle h1{
-        padding-bottom: 40px;
-        font-weight: 500;
-        font-size: 50px;
+    .FormTitle{
+        padding: 0px;
     }
     .FormTitle p{
         width: 100%;
@@ -124,41 +123,42 @@
         flex-direction: column;
     }
     .FormSection form{
-        padding: 60px 20px;
+        padding: 20px 0px;
     }
     .inputflex{
-        gap: 20px;
-    }
-    .inputflex label{
-        font-size: 20px;
-    }
-    .PolygonChange{
-        max-width: 557px;
-        height: 52px;
+        margin-top: 20px;
+        width: 100%;
+        gap: 4px;
     }
     .InputContainer{
         width: 100%;
-        gap: 15px;
+        gap: 0px;
     }
     .InputContainer input{
-        width:268.5px;
-        height: 52px;
+        width: 100%;
     }
     .BigInput{
-        height: 196px;
-        width: 58%;
+        width: 97%;
     }
     .CheckboxSide input{
-        margin: 10px;
+        margin-top: 4vw;
     }
-    .CheckboxSide label{
-        font-size: 14px;
-    }
-    .CheckboxSide p{
-        font-size: 13px;
+    .polygonChangeLeft, .poligonChangeRight{
+        width: 100%;
     }
     .FormSection button{
-        padding: 20px 40px;    
-        font-size: 20px;
+        margin-top: 4vw;
+    }
+}
+@media screen and (max-width:700px) {
+    .FormSection{
+        margin-bottom: 40vw;
+        width: 70%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .FormSection{
+        margin-bottom: 60vw;
+        width: 90%;
     }
 }
