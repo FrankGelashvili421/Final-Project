@@ -13,7 +13,7 @@ export const ServicesSection =() =>{
     const [page, setPage] = useState(1);
     const itemsPerPage = 8;
     
-    const totalPages = Math.ceil(posts.length / itemsPerPage);
+    // const totalPages = Math.ceil(posts.length / itemsPerPage);
     
     const displayedData = posts.slice((page - 1) * itemsPerPage, page * itemsPerPage);
     
