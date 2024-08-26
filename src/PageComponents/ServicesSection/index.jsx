@@ -2,13 +2,24 @@ import {setUserPosts} from '../redux/slices/postsSlice';
 import triplecube from '../../Assests/triple cube.png'
 import {useDispatch, useSelector} from 'react-redux';
 import {Pagination} from '@mui/material';
-import {useEffect} from 'react';
+import {useEffect, useState} from 'react';
 import axios from 'axios';
 import './style.css'
 
 export const ServicesSection =() =>{
 
     const posts = useSelector((state) => state.posts.userPosts);
+
+    const [page, setPage] = useState(1);
+    const itemsPerPage = 8;
+    
+    const totalPages = Math.ceil(posts.length / itemsPerPage);
+    
+    const displayedData = posts.slice((page - 1) * itemsPerPage, page * itemsPerPage);
+    
+    const handlePageChange = (event, value) => {
+      setPage(value);
+    };
     
     const dispatch = useDispatch();
     useEffect(() => {
@@ -39,7 +50,7 @@ export const ServicesSection =() =>{
                 </div>
                 <div className='ServicesBody' >
                         {
-                            posts.map((post, index)=>(
+                            displayedData.map((post, index)=>(
                                 <div key={index} className='ServicesBodyCards'>
                                     <div className='ServicesBodyImage'>
                                         <img src={triplecube} alt="cubes"/>
@@ -51,9 +62,19 @@ export const ServicesSection =() =>{
                                 </div>
                             ))
                         }
-                        <Pagination count={13} variant='outlined' color='secondary'/>
-                </div>
+                        <Pagination 
+                            onChange={handlePageChange} 
+                            count={13} 
+                            variant='outlined' 
+                            color='secondary' 
+                            sx={{
+                                    '& .MuiPaginationItem-root': {color: 'white'},
+                                }}
+                        />
+                </div> 
             </div>
         </section>
     )
 }
+
+
